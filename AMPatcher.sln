@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AMPatcher", "AMPatcher\AMPatcher.csproj", "{3EF0EAE6-9691-4051-BDFA-1B5B1B45D501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dnpatch", "dnpatch\dnpatch\dnpatch.csproj", "{14CA7A28-7FA8-40A0-ABC6-81E9F36318DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dnlib", "dnlib\src\dnlib.csproj", "{1E5DF22B-12B0-48F7-BFE8-67A016C4CCC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EF0EAE6-9691-4051-BDFA-1B5B1B45D501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF0EAE6-9691-4051-BDFA-1B5B1B45D501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF0EAE6-9691-4051-BDFA-1B5B1B45D501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF0EAE6-9691-4051-BDFA-1B5B1B45D501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14CA7A28-7FA8-40A0-ABC6-81E9F36318DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14CA7A28-7FA8-40A0-ABC6-81E9F36318DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14CA7A28-7FA8-40A0-ABC6-81E9F36318DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14CA7A28-7FA8-40A0-ABC6-81E9F36318DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5DF22B-12B0-48F7-BFE8-67A016C4CCC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5DF22B-12B0-48F7-BFE8-67A016C4CCC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5DF22B-12B0-48F7-BFE8-67A016C4CCC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5DF22B-12B0-48F7-BFE8-67A016C4CCC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9979F32-FC4B-4403-ADAA-32E4E2D700C7}
+	EndGlobalSection
+EndGlobal

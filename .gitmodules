@@ -1,0 +1,6 @@
+[submodule "dnlib"]
+	path = dnlib
+	url = https://github.com/ankurmay1988/dnlib.git
+[submodule "dnpatch"]
+	path = dnpatch
+	url = https://github.com/ankurmay1988/dnpatch.git
